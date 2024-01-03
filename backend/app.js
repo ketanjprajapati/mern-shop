@@ -12,7 +12,6 @@ app.use(cors());
 app.use(express.static('public'));
 app.use(bodyParser.json());
 app.use(express.json());
-// app.use(express.urlencoded({ extended: true }));
 
 const mongoDBURI = 'mongodb://localhost:27017/mern_shop';
 
